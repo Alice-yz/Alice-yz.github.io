@@ -18,10 +18,37 @@ My research interests span social media analysis, human–LLM collaboration, and
 
 
 # 🔥 News
+- *2026.08*: &nbsp;🎉🎉  Our papers *"PolarWeather: Visual Analysis of Multi-Platform Polarization Dynamics on Social Media"* and *"PaintEcho: Bringing Paintings to Photos through Cross-domain Visual Exploration"* are accepted to IEEE VIS 2026.
 - *2024.07*: &nbsp;🎉🎉  Our paper *"Blowing Seeds across Gardens: Visualizing Implicit Propagation of Cross-Platform Social Media Posts"* is accepted to IEEE VIS 2024. 
 
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2026</div><img src='images/PolarWeather.png' alt="PolarWeather" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PolarWeather: Visual Analysis of Multi-Platform Polarization Dynamics on Social Media](papers/PolarWeather.pdf)
+
+**Jianing Yin**, Tan Tang, Haobo Zheng, Buwei Zhou, Lu Ying, Songela Nurdawuliet, Yuan Tian, Tai-Quan Peng, Dazhen Deng, and Yingcai Wu
+
+IEEE Transactions on Visualization and Computer Graphics (VIS'26)
+
+[**PDF**](papers/PolarWeather.pdf)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2026</div><img src='images/PaintEcho.png' alt="PaintEcho" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PaintEcho: Bringing Paintings to Photos through Cross-domain Visual Exploration](papers/PaintEcho.pdf)
+
+Yihan Gao, Tan Tang, **Jianing Yin**, Haobo Zheng, Tianyi Chen, Lu Ying, Yanhong Wu, and Yingcai Wu
+
+IEEE Transactions on Visualization and Computer Graphics (VIS'26)
+
+[**PDF**](papers/PaintEcho.pdf)
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/DeferMem.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -43,9 +70,9 @@ Under Review
 
 **Jianing Yin**, Hanze Jia, Buwei Zhou, Tan Tang, Lu Ying, Shuainan Ye, Tai-Quan  Peng, and Yingcai Wu
 
-IEEE Transactions on Visualization and Computer Graphics (VIS’24)
+IEEE Transactions on Visualization and Computer Graphics (VIS'24)
 
-[**PDF**](https://zjuidg.org/source/projects/BloomWind/BloomWind.pdf) | [**Video**](https://www.youtube.com/watch?v=myZ4di4MWMg) | [**DOI**](https://doi.org/10.1109/TVCG.2024.3456181)
+[**PDF**](https://pub-b17d7d2288df4942a00824c4394886f8.r2.dev/projects/BloomWind/BloomWind.pdf) | [**Video**](https://www.youtube.com/watch?v=myZ4di4MWMg) | [**DOI**](https://doi.org/10.1109/TVCG.2024.3456181)
 </div>
 </div>
 
