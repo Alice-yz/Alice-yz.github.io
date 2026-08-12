@@ -2,7 +2,8 @@ param(
   [switch]$NoPush,
   [switch]$SkipInstall,
   [switch]$AllowDirty,
-  [string]$Message
+  [string]$Message,
+  [string]$GitExecutable
 )
 
 $ErrorActionPreference = "Stop"
@@ -13,6 +14,49 @@ $DeployRoot = Join-Path $RepoRoot ".deploy-worktree"
 $WorktreePath = Join-Path $DeployRoot "gh-pages"
 $SiteDir = Join-Path $RepoRoot "_site"
 
+function Resolve-GitExecutable {
+  param(
+    [string]$RequestedPath
+  )
+
+  if ($RequestedPath) {
+    if (-not (Test-Path -LiteralPath $RequestedPath -PathType Leaf)) {
+      throw "Git executable not found: $RequestedPath"
+    }
+    return (Resolve-Path -LiteralPath $RequestedPath).Path
+  }
+
+  if ($env:LOCALAPPDATA) {
+    $DesktopRoot = Join-Path $env:LOCALAPPDATA "GitHubDesktop"
+    if (Test-Path -LiteralPath $DesktopRoot -PathType Container) {
+      $DesktopGit = Get-ChildItem -LiteralPath $DesktopRoot -Directory -Filter "app-*" |
+        ForEach-Object {
+          $Candidate = Join-Path $_.FullName "resources\app\git\cmd\git.exe"
+          $VersionText = $_.Name -replace "^app-", ""
+          $ParsedVersion = $null
+          if ((Test-Path -LiteralPath $Candidate -PathType Leaf) -and
+              [version]::TryParse($VersionText, [ref]$ParsedVersion)) {
+            [pscustomobject]@{
+              Path = $Candidate
+              Version = $ParsedVersion
+            }
+          }
+        } |
+        Sort-Object Version -Descending |
+        Select-Object -First 1
+
+      if ($DesktopGit) {
+        return $DesktopGit.Path
+      }
+    }
+  }
+
+  return (Get-Command git -ErrorAction Stop).Source
+}
+
+$GitCommand = Resolve-GitExecutable -RequestedPath $GitExecutable
+Write-Host "Using Git: $GitCommand"
+
 function Invoke-GitAt {
   param(
     [Parameter(Mandatory = $true)]
@@ -22,7 +66,7 @@ function Invoke-GitAt {
   )
 
   $SafePath = $Path -replace "\\", "/"
-  & git -C $Path -c "safe.directory=$SafePath" @GitArgs
+  & $GitCommand -C $Path -c "safe.directory=$SafePath" @GitArgs
   if ($LASTEXITCODE -ne 0) {
     throw "git $($GitArgs -join ' ') failed with exit code $LASTEXITCODE"
   }
@@ -33,7 +77,7 @@ function Test-GitRef {
     [string]$Ref
   )
 
-  & git -C $RepoRoot -c "safe.directory=$RepoRootGit" show-ref --verify --quiet $Ref
+  & $GitCommand -C $RepoRoot -c "safe.directory=$RepoRootGit" show-ref --verify --quiet $Ref
   return $LASTEXITCODE -eq 0
 }
 

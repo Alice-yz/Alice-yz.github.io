@@ -100,6 +100,12 @@ Expected GitHub Pages settings:
 
 The deploy script copies `CNAME` into the generated site and adds `.nojekyll`, so GitHub Pages can publish the prebuilt static files directly.
 
+On Windows, the deploy script automatically prefers GitHub Desktop's bundled Git when it is installed, then falls back to the `git` command on `PATH`. A specific Git executable can be selected when needed:
+
+```powershell
+.\scripts\deploy-gh-pages.ps1 -SkipInstall -GitExecutable "C:\path\to\git.exe"
+```
+
 ## Acknowledgements
 
 - AcadHomepage incorporates Font Awesome, distributed under the SIL OFL 1.1 and MIT License.
