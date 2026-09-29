@@ -53,9 +53,9 @@ IEEE Transactions on Visualization and Computer Graphics (VIS'26)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/DeferMem.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[DeferMem: Query-Time Evidence Distillation via Reinforcement Learning for Long-Term Memory QA](https://arxiv.org/abs/2605.22411)
+[DeferMem: Query-Time Evidence Distillation via Reinforcement Learning for Long-Term Agent Memory](https://doi.org/10.48550/arXiv.2605.22411)
 
-**Jianing Yin**, Tan Tang
+**Jianing Yin**, Tan Tang, Yingcai Wu
 
 Under Review
 
