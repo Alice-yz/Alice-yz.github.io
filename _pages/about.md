@@ -10,19 +10,40 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am Jianing Yin (殷佳宁 in Chinese), a third-year Ph.D. candidate at the <a href="http://www.cad.zju.edu.cn/">State Key Lab of CAD&CG, Zhejiang University</a>. As a member of <a href="https://zjuidg.org/">ZJUIDG</a>, I am fortunate to be supervised by Prof. <a href="http://www.ycwu.org/">Yingcai Wu</a> and Dr. <a href="https://tantang.org/">Tan Tang</a>.
+Hi! I am Jianing Yin (殷佳宁 in Chinese), a fourth-year Ph.D. candidate at the <a href="http://www.cad.zju.edu.cn/">State Key Lab of CAD&CG, Zhejiang University</a>. As a member of <a href="https://zjuidg.org/">ZJUIDG</a>, I am fortunate to be supervised by Prof. <a href="http://www.ycwu.org/">Yingcai Wu</a> and Dr. <a href="https://tantang.org/">Tan Tang</a>.
 
-<!-- My research interests include social media analysis, agent memory, and human-LLM collaboration. I am interested in utilizing visual metaphors to represent diverse phenomena and patterns in social media. I also study human–LLM intent alignment to improve the interpretability and collaboration between humans and large language models. Inspired by agentic reinforcement learning (RL) as a paradigm for capability development in LLMs, I am now exploring agentic AI for agent memory. -->
-My research interests span social media analysis, human–LLM collaboration, and agent memory. Broadly, I aim to develop interpretable and collaborative AI systems that help people organize, retrieve, and reason over complex information. My previous work investigates how visual metaphors and interactive systems can support the analysis of cross-platform social media phenomena. More recently, I have been studying memory systems for LLM agents, and I am interested in further exploring how agent memory can support deeper forms of human–agent collaboration, from shared context understanding to better alignment with human intent.
-<!-- Her research lies at the intersection of data visualization and human-computer interaction, with a particular focus on analyzing and understanding social media ecosystems. She explores how visual metaphors and interactive techniques can be used to reveal diverse phenomena and patterns across and within social media platforms. She is also interested in examining the evolving relationships between users and algorithmic systems, aiming to support more transparent, interpretable, and human-centered interaction with digital platforms. -->
+My current research focuses on **long-term memory for LLM agents**, particularly how agents can efficiently retrieve, reason over, and learn from accumulated information and experience. In my recent work, DeferMem, I developed a reinforcement-learning-based approach to query-time evidence distillation for more effective memory utilization. More broadly, I am interested in developing memory algorithms and agent harness architectures that support long-horizon reasoning and continual improvement.
 
+My earlier research combined **computational modeling and visual analytics** to study complex information dynamics on social media. I proposed computational methods and interactive systems for analyzing cross-platform information propagation and multi-platform polarization dynamics.
+
+# 🔬 Research Interests
+
+**Long-Term Agent Memory**. How can LLM agents retain, retrieve, and utilize information and experiences accumulated over long horizons?
+
+**Memory-Augmented Agent Reasoning**. How can agent harness architectures and memory-aware reasoning strategies help LLM agents solve complex tasks more effectively and efficiently?
+
+**Self-Improvement and Continual Learning**. How can agents leverage accumulated experience and feedback to continually improve their memory, reasoning, and problem-solving capabilities?
 
 # 🔥 News
+- *2026.09*: An updated version of our preprint DeferMem is now available on arXiv.
 - *2026.08*: &nbsp;🎉🎉  Our papers *"PolarWeather: Visual Analysis of Multi-Platform Polarization Dynamics on Social Media"* and *"PaintEcho: Bringing Paintings to Photos through Cross-domain Visual Exploration"* are accepted to IEEE VIS 2026.
 - *2024.07*: &nbsp;🎉🎉  Our paper *"Blowing Seeds across Gardens: Visualizing Implicit Propagation of Cross-Platform Social Media Posts"* is accepted to IEEE VIS 2024. 
 
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/DeferMem.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DeferMem: Query-Time Evidence Distillation via Reinforcement Learning for Long-Term Agent Memory](https://doi.org/10.48550/arXiv.2605.22411)
+
+**Jianing Yin**, Tan Tang, Yingcai Wu
+
+ArXiv preprint, 2026
+
+[**PDF**](https://arxiv.org/pdf/2605.22411) | [**DOI**](https://doi.org/10.48550/arXiv.2605.22411)
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2026</div><img src='images/PolarWeather.png' alt="PolarWeather" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -50,19 +71,6 @@ IEEE Transactions on Visualization and Computer Graphics (VIS'26)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/DeferMem.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[DeferMem: Query-Time Evidence Distillation via Reinforcement Learning for Long-Term Agent Memory](https://doi.org/10.48550/arXiv.2605.22411)
-
-**Jianing Yin**, Tan Tang, Yingcai Wu
-
-Under Review
-
-[**PDF**](https://arxiv.org/pdf/2605.22411) | [**DOI**](https://doi.org/10.48550/arXiv.2605.22411)
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">VIS 2024</div><img src='images/bloomwind.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -81,7 +89,7 @@ IEEE Transactions on Visualization and Computer Graphics (VIS'24)
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
-# 📖 Educations
+# 📖 Education
 - *2023.09 - now*, PhD, College of Computer Science and Technology, Zhejiang University, Hangzhou, China. 
 - *2019.09 - 2023.06*, Undergraduate, [Turing Class](http://www.cs.zju.edu.cn/turingclass_en/), College of Computer Science and Technology, Zhejiang University, Hangzhou, China. 
 
