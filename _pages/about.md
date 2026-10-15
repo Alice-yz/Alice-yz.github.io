@@ -12,7 +12,7 @@ redirect_from:
 
 Hi! I am Jianing Yin (殷佳宁 in Chinese), a fourth-year Ph.D. candidate at the <a href="http://www.cad.zju.edu.cn/">State Key Lab of CAD&CG, Zhejiang University</a>. As a member of <a href="https://zjuidg.org/">ZJUIDG</a>, I am fortunate to be supervised by Prof. <a href="http://www.ycwu.org/">Yingcai Wu</a> and Dr. <a href="https://tantang.org/">Tan Tang</a>.
 
-My current research focuses on **long-term memory for LLM agents**, particularly how agents can efficiently retrieve, reason over, and learn from accumulated information and experience. In my recent work, DeferMem, I developed a reinforcement-learning-based approach to query-time evidence distillation for more effective memory utilization. More broadly, I am interested in developing memory algorithms and agent harness architectures that support long-horizon reasoning and continual improvement.
+My current research focuses on **long-term memory for LLM agents**, particularly how agents can effectively retrieve, reason over, and learn from accumulated information and experience. In my recent work, DeferMem, I developed a reinforcement-learning-based approach to query-time evidence distillation for more effective memory utilization. More broadly, I am interested in developing memory algorithms and agent harness architectures that support long-horizon reasoning and continual improvement.
 
 My earlier research combined **computational modeling and visual analytics** to study complex information dynamics on social media. I proposed computational methods and interactive systems for analyzing cross-platform information propagation and multi-platform polarization dynamics.
 
