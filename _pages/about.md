@@ -52,7 +52,7 @@ ArXiv preprint, 2026
 
 Chuhan Zhang, Qi Xie, Ziyue Wang, **Jianing Yin**, Yunfan Zhou, Dazhen Deng, Yingcai Wu
 
-arXiv preprint, 2026
+ArXiv preprint, 2026
 
 [**PDF**](https://arxiv.org/pdf/2609.32385) | [**DOI**](https://doi.org/10.48550/arXiv.2609.32385)
 </div>
