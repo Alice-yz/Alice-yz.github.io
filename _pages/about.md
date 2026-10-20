@@ -32,7 +32,7 @@ My earlier research combined **computational modeling and visual analytics** to 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/DeferMem.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/DeferMem.png' alt="DeferMem" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DeferMem: Query-Time Evidence Distillation via Reinforcement Learning for Long-Term Agent Memory](https://doi.org/10.48550/arXiv.2605.22411)
@@ -42,6 +42,19 @@ My earlier research combined **computational modeling and visual analytics** to 
 ArXiv preprint, 2026
 
 [**PDF**](https://arxiv.org/pdf/2605.22411) | [**DOI**](https://doi.org/10.48550/arXiv.2605.22411)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/DashAct.png' alt="DashAct" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DashAct: A Progressive Diagnostic Benchmark for GUI Agents in Interactive Dashboard Analysis](https://doi.org/10.48550/arXiv.2609.32385)
+
+Chuhan Zhang, Qi Xie, Ziyue Wang, **Jianing Yin**, Yunfan Zhou, Dazhen Deng, Yingcai Wu
+
+arXiv preprint, 2026
+
+[**PDF**](https://arxiv.org/pdf/2609.32385) | [**DOI**](https://doi.org/10.48550/arXiv.2609.32385)
 </div>
 </div>
 
